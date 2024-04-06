@@ -11,9 +11,9 @@ prompt 창을 띄워 사용자에게 숫자를 입력해 달라고 요청한 후
 function sumInput(){
    let arr = [];
    while(true){
-      let n = parseInt(prompt("숫자를 입력해주세요.","0"));
+      let n = prompt("숫자를 입력해주세요.","0");
       if(n === ""||n === null||!isFinite(n)) break;
-      arr.push(n);
+      arr.push(Number(n));
    }
   
    let sum = 0;
