@@ -8,11 +8,13 @@ console.log(styles)
 
 // 3번
 styles.map(() => {
-    if (styles.length === 1)
+    if (styles.length === 1){
         return styles = ["Classics"]
+    }
 
-    if (styles.length % 2 === 1)
-        return styles[1] = "Classics"
+    else if (styles.length % 2 === 1){
+        return styles[Math.floor(styles.length / 2)] = "Classics"
+    }
 })
 console.log(styles)
 
