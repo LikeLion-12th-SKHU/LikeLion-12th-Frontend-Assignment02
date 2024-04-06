@@ -13,9 +13,9 @@ function sumInput(){
    while(true){
       let n = prompt("숫자를 입력해주세요.","0");
       if(n === ""||n === null||!isFinite(n)) break;
-      arr.push(+n);
+      arr.push(Number(n));
    }
-
+  
    let sum = 0;
    for (let i of arr) {//for...of는 배열 사용
      sum += i;
