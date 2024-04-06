@@ -2,7 +2,8 @@
 let user = {};
 
 // 2
-user = {John : 'name'}
+user.name = 'John'
+// user['name'] = 'John'
 
 //3
 user.surname = 'Smith';

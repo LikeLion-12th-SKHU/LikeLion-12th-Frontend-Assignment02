@@ -11,7 +11,7 @@ styles.map(() => {
     if (styles.length === 1)
         return styles = ["Classics"]
 
-    else
+    if (styles.length % 2 === 1)
         return styles[1] = "Classics"
 })
 console.log(styles)
