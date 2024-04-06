@@ -22,7 +22,11 @@ console.log(styles)
 styles.push('Rock-n-Roll')
 console.log(styles)
 
-styles[1] = 'Classics'
+styles.forEach(( _ , index) => { /* 임의 변수 _ 로 처리 */ 
+    if (index === Math.floor(styles.length / 2)) {
+        styles[index] = 'Classics'
+    }
+})
 console.log(styles)
 
 styles.shift()
