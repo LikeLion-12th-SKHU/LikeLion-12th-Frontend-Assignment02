@@ -11,13 +11,14 @@ function sumInput(){
         if(question === null || question === "" || isNaN(question)){
          break;   
         }
-        num.push(question);
+        num.push(parseInt(question));
     }
 
     let sum = 0;
 
-    for(let i = 0; i < sumInput.length; i++){
-        sum += sumInput[i];
+    for(let i = 0; i < num.length; i++){
+
+        sum += num[i];
     }
     return sum;
 }
