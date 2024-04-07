@@ -13,7 +13,7 @@
 function isEmpty(obj) {
     for (let i in obj) {
         if (typeof obj[i] !== 'object' || obj[i] === null) {
-            return false;
+            return;
         }
         return false;
     }
