@@ -1,9 +1,9 @@
-let user = {}
+let user = {};
 
-user.name = 'John'
+user.name = 'John';
 
-user.surname = 'Smith'
+user.surname = 'Smith';
 
-user.name = 'Pete'
+user.name = 'Pete';
 
-delete user.name
+delete user.name;
