@@ -3,16 +3,11 @@ let user = {};
 console.log(user);
 
 // user에 키가 name, 값이 John인 프로퍼티를 추가하세요.
-user = {
-    name: "John"
-}
+user.name = 'Jonn';
 console.log(user);
 
 // user에 키가 surname, 값이 Smith인 프로퍼티를 추가하세요.
-user = {
-    name: "John",
-    surname: "Smith"
-}
+user.surname = 'Smith'
 console.log(user);
 
 // name의 값을 Pete로 수정해보세요.

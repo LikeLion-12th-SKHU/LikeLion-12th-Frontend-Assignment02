@@ -12,7 +12,7 @@ styles[middleIndex] = "Classics";
 console.log(styles);
 
 // 배열의 첫 번째 요소를 꺼내서 출력
-styles.shift(styles);
+styles.shift();
 console.log(styles);
 
 // "Rap"과 "Reggae"를 배열의 앞에 추가

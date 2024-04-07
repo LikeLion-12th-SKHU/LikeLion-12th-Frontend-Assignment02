@@ -3,13 +3,12 @@ function sumInput() {
 
     // 입력받은 숫자를 저장할 배열 numbers 생성
     let numbers = [];
-    var input;
     
     // 숫자를 입력 받는 동안 반복
     while(true) {
 
         // prompt 창을 띄워 사용자에게 숫자를 입력해 달라고 요청
-        input = window.prompt("숫자를 입력해주세요", "");
+        let input = window.prompt("숫자를 입력해주세요", "");
 
         // 숫자가 아닌 값, 혹은 빈 문자열을 입력하거나 ‘Cancel’ 버튼을 누를 경우
         if(input === null || input === "" || !isFinite(input)) {
